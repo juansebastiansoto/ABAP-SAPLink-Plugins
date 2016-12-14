@@ -18,6 +18,10 @@ https://app.assembla.com/spaces/saplink/wiki/SAPlink_plugin_list
 
 Plugin to use Standard Texts. This objects are created with SO10 Transaction, SAVE_TEXT Function Module or another solution (Example: Text object in a document)
 
+The object name must have this format: TDOBJECT,TDNAME,TDID,TDSPRAS
+
+Example: TEXT,YBCTESTHTML,ST,E
+
 ## How to install it?
 
 Download the nugget, and import it with SAPLink.

@@ -12,7 +12,7 @@ The SAPLink Plugins are addons to handle a specific SAP Object (Example: Search 
 
 https://app.assembla.com/spaces/saplink/wiki/SAPlink_plugin_list
 
-## What is plugins are here?
+## What plugins are here?
 
 **ZSAPLINK_STANDARD_TEXTS**
 
@@ -21,6 +21,12 @@ Plugin to use Standard Texts. This objects are created with SO10 Transaction, SA
 The object name must have this format: TDOBJECT,TDNAME,TDID,TDSPRAS
 
 Example: TEXT,YBCTESTHTML,ST,E
+
+**ZSAPLINK_TRANSACTIONS**
+
+Plugin to use Transactions Codes. This object are created with SE93 Transaction using the same Function Modules like SAP.
+
+Is out of the scope the Authorization Object configuration.
 
 ## How to install it?
 
